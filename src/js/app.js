@@ -7,4 +7,7 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
+  setTimeout(function() {
+    document.getElementsByTagName('title')[0].innerHTML = 'One new message';
+}, 3000);
 });
